@@ -158,14 +158,7 @@ Benchmark of 10 random sensor-noise seeds per scenario (`python runall.py`):
 
 > A larger 40-seed stress test of the `dynamic` scenario succeeded in 36/40 runs; the 4 failures were collisions with obstacles crossing the robot's path. This is a known limitation (constant-velocity prediction, no side-stepping) and the main target for future work.
 
-## 🖼️ Screenshots
-| Obstacle reaction | Final run | Telemetry |
-|---|---|---|
-| ![](images/dynamic_obstacle_reaction.png) | ![](images/warehouse_final.png) | ![](images/warehouse_telemetry.png) |
 
-| Benchmark | Dashboard |
-|---|---|
-| ![](images/benchmark_summary.png) | ![](images/dashboard.png) *(add your own screenshot)* |
 
 ## 🚀 Future improvements
 YOLO camera perception · ROS 2 / Gazebo / CARLA port · SLAM instead of known pose · D\* Lite / RRT\* / MPC · reinforcement-learning local planner · multi-robot coordination · cloud dashboard (Docker + WebSockets) · drone (3D) version.
@@ -173,8 +166,6 @@ YOLO camera perception · ROS 2 / Gazebo / CARLA port · SLAM instead of known p
 ## 📚 Learning outcomes
 Occupancy grids and log-odds mapping · A\* and heuristics · pure-pursuit control · state machines for safety behaviour · sensor noise · REST API design · testing simulation code · benchmarking with random seeds · Git/GitHub workflow.
 
-## 👤 Author
-**<Your Name>**: B.Tech student · [LinkedIn](https://linkedin.com/in/your-id) · [GitHub](https://github.com/your-username)
 
 ## 📄 License
 MIT
